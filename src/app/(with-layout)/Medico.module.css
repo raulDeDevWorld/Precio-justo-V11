@@ -1,0 +1,221 @@
+/* .container {
+    box-sizing: border-box;
+    position: relative;
+    min-height: 100vh;
+    min-width: 100vw;
+    background-attachment: fixed;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    color: 'white';
+    font-weight: var(--font-weight-medium);
+}
+
+.header {
+    position: absolute;
+    top: 0;
+    height: 65px;
+    width: 100vw;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: 'white'
+}
+
+.perfil {
+    height: 100px;
+}
+
+.main {
+    box-sizing: border-box;
+    position: relative;
+    min-height: 100vh;
+    min-width: 100vw;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+}
+
+
+.header {
+    height: 45px;
+    background-color: var(--main-bg-color);
+    padding: 0 10px;
+
+    display: flex;
+    justify-content: space-between;
+
+    border-bottom: 3px solid rgb(101, 101, 101);
+    z-index: 1000;
+}
+
+.header img {
+    height: 20px;
+
+
+}
+
+.header ul {
+    padding: 0;
+    width: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header ul li {
+    list-style: none;
+}
+
+
+.main {
+    background-color: #E4E4E4;
+    padding: 15px;
+}
+
+.form {
+    position: relative;
+    width: 95%;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.form>input:nth-child(n) {
+    width: 100%;
+}
+
+.perfil {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.perfil label {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: #E4E4E4;
+    border: 1px solid #c2bada;
+    border-radius: 100px;
+    outline: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.perfil input {
+    display: none;
+}
+
+.form>label {
+    width: 100%;
+    margin: 15px 0px 5px 0px;
+    text-align: left;
+}
+
+.form>input {
+    text-align: left;
+}
+
+.form>button {
+    margin: 15px 0 5px 0;
+}
+
+.boxButton {
+    margin: 15px 0 5px 0;
+
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.box {
+    width: 100%;
+    margin: 15px 0px 5px 0px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.box :nth-child(n) {
+    width: 45%;
+
+}
+
+
+.box label {
+    margin-right: 15px;
+}
+
+.box input {
+    width: 50%;
+}
+
+
+
+
+.subtitle {
+    width: 100%;
+
+    margin: 0;
+    font-size: 12;
+    font-weight: var(--font-weight-bold);
+    text-align: left;
+
+}
+
+.subtitleCenter {
+    width: 100%;
+
+    margin: 0;
+    font-size: 12;
+    font-weight: var(--font-weight-bold);
+    text-align: center;
+
+}
+
+.subtitleBlue {
+    margin: 0;
+    font-size: 12;
+    font-weight: var(--font-weight-bold);
+    color: var(--color-primary);
+}
+
+.description {
+    width: 100%;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contactos img {
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+}
+.container p {
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+/* Medico */
+
